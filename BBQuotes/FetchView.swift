@@ -82,7 +82,7 @@ struct FetchView: View {
                             }
                         } label: {
                             Text("Get Random Quote")
-                                .font(.title3)
+                                .font(.title2)
                                 .foregroundStyle(.white)
                                 .padding()
                                 .background(Color("\(show.removeSpaces())Button"))
@@ -98,7 +98,7 @@ struct FetchView: View {
                             }
                         } label: {
                             Text("Get Random Episode")
-                                .font(.title3)
+                                .font(.title2)
                                 .foregroundStyle(.white)
                                 .padding()
                                 .background(Color("\(show.removeSpaces())Button"))
