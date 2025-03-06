@@ -14,7 +14,7 @@ struct Episode: Decodable {
     let synopsis: String
     let writtenBy: String
     let directedBy: String
-    let airdate: String
+    let airDate: String
     
     var seasonEpisode: String {
         return "Season \(episode / 100) Episode \(episode % 100)"
